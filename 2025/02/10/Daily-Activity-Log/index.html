@@ -17,18 +17,18 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"sylvia417.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"sylvia417.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="Fresh of the boat**** Daily Activity LogSeptember 9&#x2F;11 Got to Mt Roskill, Auckland, New Zealand by plane at night, lived in the first place (220$&#x2F;w)  9&#x2F;16 First bought lunch (I was star">
+  <meta name="description" content="Fresh of the boat Daily Activity LogSeptember 9&#x2F;11 Got to Mt Roskill, Auckland, New Zealand by plane at night, lived in the first place (220$&#x2F;w)  9&#x2F;16 First bought lunch (I was starved)">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Daily Activity Log">
 <meta property="og:url" content="https://sylvia417.github.io/2025/02/10/Daily-Activity-Log/index.html">
 <meta property="og:site_name" content="Sylvia&#39;s Blog">
-<meta property="og:description" content="Fresh of the boat**** Daily Activity LogSeptember 9&#x2F;11 Got to Mt Roskill, Auckland, New Zealand by plane at night, lived in the first place (220$&#x2F;w)  9&#x2F;16 First bought lunch (I was star">
+<meta property="og:description" content="Fresh of the boat Daily Activity LogSeptember 9&#x2F;11 Got to Mt Roskill, Auckland, New Zealand by plane at night, lived in the first place (220$&#x2F;w)  9&#x2F;16 First bought lunch (I was starved)">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2025-02-10T04:57:16.000Z">
-<meta property="article:modified_time" content="2025-02-10T05:13:54.279Z">
+<meta property="article:modified_time" content="2025-02-10T08:31:34.869Z">
 <meta property="article:author" content="Sylvia">
 <meta property="article:tag" content="Diary">
 <meta name="twitter:card" content="summary">
@@ -105,6 +105,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -119,16 +120,53 @@
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
 
   </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
+
+  </li>
         <li class="menu-item menu-item-archives">
 
     <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -176,7 +214,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2025-02-10 17:57:16 / Modified: 18:13:54" itemprop="dateCreated datePublished" datetime="2025-02-10T17:57:16+13:00">2025-02-10</time>
+              <time title="Created: 2025-02-10 17:57:16 / Modified: 21:31:34" itemprop="dateCreated datePublished" datetime="2025-02-10T17:57:16+13:00">2025-02-10</time>
             </span>
 
           
@@ -190,8 +228,8 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>Fresh of the boat****</p>
-<h2 id="Daily-Activity-Log"><a href="#Daily-Activity-Log" class="headerlink" title="Daily Activity Log"></a>Daily Activity Log</h2><h3 id="September"><a href="#September" class="headerlink" title="September"></a>September</h3><ul>
+        <p><strong>Fresh of the boat</strong></p>
+<h2><span id="daily-activity-log">Daily Activity Log</span></h2><h3><span id="september">September</span></h3><ul>
 <li><p><strong>9&#x2F;11</strong> Got to Mt Roskill, Auckland, New Zealand by plane at night, lived in the first place (220$&#x2F;w)</p>
 </li>
 <li><p><strong>9&#x2F;16</strong> First bought lunch (I was starved), bought a bus card (5$), went to school to register, first time took Auckland bus, met a woman who gave me a hand</p>
@@ -217,7 +255,7 @@
 <li><p><strong>9&#x2F;29</strong> Moved to a second place (180$&#x2F;w)</p>
 </li>
 </ul>
-<h3 id="October"><a href="#October" class="headerlink" title="October"></a>October</h3><ul>
+<h3><span id="october">October</span></h3><ul>
 <li><p><strong>10&#x2F;4</strong> Registered a temporary BNZ bank card in the bank, got my deposit card on the same day when I got back</p>
 </li>
 <li><p><strong>10&#x2F;13</strong> Got a part-time job in a Chinese restaurant</p>
@@ -237,7 +275,7 @@
 <li><p><strong>10&#x2F;29</strong> First time knew about PATAKA KAI, got some yummy bread</p>
 </li>
 </ul>
-<h3 id="November"><a href="#November" class="headerlink" title="November"></a>November</h3><ul>
+<h3><span id="november">November</span></h3><ul>
 <li><p><strong>11&#x2F;10</strong> Went to the Sunday Market ( Ma Chang) first time and saw Fa Lun Gong’s banners and brochures for the first time, big surprised. Got a small blue cake from Mrs. Li (She is always so helpful and generous)</p>
 </li>
 <li><p><strong>11&#x2F;11</strong> Tried yummy Dou Fu Nao which was made by Mrs. Li</p>
@@ -249,7 +287,7 @@
 <li><p><strong>11&#x2F;27</strong> Have been told the first practicum can be failed</p>
 </li>
 </ul>
-<h3 id="December"><a href="#December" class="headerlink" title="December"></a>December</h3><ul>
+<h3><span id="december">December</span></h3><ul>
 <li><p><strong>12&#x2F;5</strong> Tried He Luo Noodles which was made by the second houselord</p>
 </li>
 <li><p><strong>12&#x2F;8</strong> Moved to the third house (150$&#x2F;w)</p>
@@ -273,7 +311,7 @@
 <li><p><strong>12&#x2F;31</strong> Been under the Sky Tower at midnight to celebrate New Year but returned before enjoying the fireworks bcos of the cold weather</p>
 </li>
 </ul>
-<h3 id="January"><a href="#January" class="headerlink" title="January"></a>January</h3><ul>
+<h3><span id="january">January</span></h3><ul>
 <li><p><strong>1&#x2F;2</strong> Got a 10$ US tip and saw the real US dollars for the first time</p>
 </li>
 <li><p><strong>1&#x2F;5</strong> Tried making Shao Xian Cao for the first time, was attacked by ducks near the river at the third living place</p>
@@ -305,7 +343,7 @@
 <li><p><strong>1&#x2F;30</strong> Volunteered at the community center for the second time, celebrated Chinese New Year together, learned to make lanterns with red envelopes</p>
 </li>
 </ul>
-<h3 id="February"><a href="#February" class="headerlink" title="February"></a>February</h3><ul>
+<h3><span id="february">February</span></h3><ul>
 <li><p><strong>2&#x2F;2</strong> Went to that woman’s (From Xiao Hong Shu) house and got my satifying haircut, 10$</p>
 </li>
 <li><p><strong>2&#x2F;8</strong> Made Shou Zhua Bing by myself, climbed the nearest mountain</p>
@@ -393,7 +431,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Daily-Activity-Log"><span class="nav-number">1.</span> <span class="nav-text">Daily Activity Log</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#September"><span class="nav-number">1.1.</span> <span class="nav-text">September</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#October"><span class="nav-number">1.2.</span> <span class="nav-text">October</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#November"><span class="nav-number">1.3.</span> <span class="nav-text">November</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#December"><span class="nav-number">1.4.</span> <span class="nav-text">December</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#January"><span class="nav-number">1.5.</span> <span class="nav-text">January</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#February"><span class="nav-number">1.6.</span> <span class="nav-text">February</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-number">1.</span> <span class="nav-text">Daily Activity Log</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.1.</span> <span class="nav-text">September</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.2.</span> <span class="nav-text">October</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.3.</span> <span class="nav-text">November</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.4.</span> <span class="nav-text">December</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.5.</span> <span class="nav-text">January</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.6.</span> <span class="nav-text">February</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -482,6 +520,10 @@
   
 
 
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 
