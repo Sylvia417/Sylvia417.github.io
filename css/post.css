@@ -265,180 +265,192 @@ pre ::selection {
   src: url("/font-awesome/webfonts/fa-solid-900.eot");
   src: url("/font-awesome/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("/font-awesome/webfonts/fa-solid-900.woff") format("woff"), url("/font-awesome/webfonts/fa-solid-900.ttf") format("truetype"), url("/font-awesome/webfonts/fa-solid-900.svg#micon") format("svg");
 }
-@font-face {
-  font-family: "Headings";
-  src: url("/font-awesome/webfonts/fa-solid-900.eot");
-  src: url("/font-awesome/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("/font-awesome/webfonts/fa-solid-900.woff") format("woff"), url("/font-awesome/webfonts/fa-solid-900.ttf") format("truetype"), url("/font-awesome/webfonts/fa-solid-900.svg#micon") format("svg");
-}
-#post {
-  background-image: linear-gradient(90deg, rgba(50,0,0,0.04) 3%, rgba(0,0,0,0) 3%), linear-gradient(360deg, rgba(50,0,0,0.04) 3%, rgba(0,0,0,0) 3%);
-  background-size: 20px 20px;
-  background-position: center center;
-}
 #post-content {
-  line-height: 1.75;
-  color: #2b2b2b;
-  letter-spacing: 2px;
+  font-size: 1rem;
+  color: var(--text-color);
+  line-height: 1.6;
+  word-spacing: 0px;
+  letter-spacing: 0px;
+  word-break: break-word;
+  word-wrap: break-word;
+  text-align: left;
+/* font-family: 'Cantarell','Source Han Serif CN','JetBrains Mono'; */
+  font-family: 'Cantarell', 'SourceHanSerifCN', 'JetBrainsMono';
+  margin-bottom: 20rem;
 }
-#post-content p {
-  color: #2b2b2b;
-  margin: 10px 0px;
-  font-size: 14px;
+#post-content strong {
+  color: #4870ac;
+}
+#post-content a {
+  text-decoration: none;
+  word-wrap: break-word;
+  color: #4870ac;
+  border-bottom: 1px solid #4870ac;
+  margin: 2px;
+}
+#post-content p,
+#post-content blockquote p {
+  font-size: 1.1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  margin: 0;
+  line-height: 1.8rem;
+  color: #3a4749;
+}
+#post-content blockquote footer {
+  display: block;
+  margin-top: 8px;
+  text-align: right;
+  word-break: break-all;
+}
+#post-content blockquote footer:before {
+  content: "——";
+}
+#post-content h1,
+#post-content h2,
+#post-content h3,
+#post-content h4,
+#post-content h5,
+#post-content h6 {
+  margin: 1em 0 1em;
+  padding: 0px;
+  color: #4870ac;
 }
 #post-content h1 {
-  font-size: 25px;
+  text-align: center;
+}
+#post-content h2 {
   display: inline-block;
   font-weight: bold;
-  color: #62b900;
-}
-#post-content h2 {
-  display: block;
-  border-bottom: 4px solid #62b900;
-}
-#post-content h2 {
-  display: flex;
-  color: #62b900;
-  font-size: 20px;
-}
-#post-content h2:before {
-  font-family: "Headings";
-  content: '\f001';
-  display: flex;
-  width: auto;
-  background-size: 20px 20px;
-  margin-bottom: -22px;
-  margin-right: 5px;
-}
-#post-content h2::after {
-  content: "";
-  display: flex;
-  box-sizing: border-box;
-  width: 200px;
-  height: 10px;
-  border-top-left-radius: 20px;
-  background: rgba(98,185,0,0.5);
+  background: #4870ac;
   color: #fff;
-  font-size: 16px;
-  letter-spacing: 0.544px;
-  justify-content: flex-end;
-  box-sizing: border-box !important;
-  overflow-wrap: break-word !important;
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  padding: 1px 15px 1px;
+  border-radius: 4px;
+  margin-right: 3px;
+}
+h2::after {
+  width: 100%;
+}
+#post-content h1 {
+  font-size: 2rem;
+}
+#post-content h2 {
+  font-size: 1.5rem;
 }
 #post-content h3 {
-  display: block;
-  font-size: 17px;
-  font-weight: bold;
-  text-align: center;
-  position: relative;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: fit-content;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  margin: 20 auto;
-  margin-inline: auto !important;
-}
-#post-content h3::after {
-  content: "";
-  width: auto;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0px;
-  border-bottom: 2px solid rgba(114,192,0,0.65);
-  color: #2b2b2b;
-}
-#post-content h3:before {
-  font-family: "Headings";
-  font-size: 30px;
-  margin-top: 20px;
-  z-index: -1;
-  content: '\f58f';
-  height: 32px;
-  display: block;
-  color: rgba(114,192,0,0.65);
-  margin: auto;
+  font-size: 1.4rem;
 }
 #post-content h4 {
-  height: 16px;
-  line-height: 16px;
-  font-size: 16px;
+  font-size: 1.2rem;
 }
-#post-content h4:before {
-  font-family: "Headings";
-  content: '\f8cf';
-  color: rgba(114,192,0,0.65);
-  display: inline-block;
-  margin-right: 5px;
+#post-content h5 {
+  font-size: 1.1rem;
 }
-#post-content ul li {
-  font-size: 15px;
-  color: #595959;
-  list-style-type: none;
-  margin-left: 20px;
-  position: relative;
+#post-content h6 {
+  font-size: 1.1rem;
 }
-#post-content ul li:not(:has(input[type="checkbox"])):before {
-  content: "";
-  background: rgba(98,185,0,0.5);
-  width: 12px;
-  height: 12px;
-  border-radius: 20px;
-  top: 6px;
-  left: -20px;
-  position: absolute;
+#post-content  li::marker {
+  font-weight: bold;
+  color: rgba(72,112,172,0.5);
 }
-#post-content ul li li:before {
-  content: "";
-  background: none;
-  width: 6px;
-  height: 6px;
-  border: solid 3px rgba(98,185,0,0.5);
-  border-radius: 20px;
-  top: 6px;
-  left: -20px;
-  position: absolute;
+#post-content ul li,
+#post-content ol li {
+  margin: 0.4rem 0;
 }
-#post-content ul li  li li:before {
-  content: "";
-  background: none;
-  width: 6px;
-  height: 6px;
-  border: solid 3px rgba(98,185,0,0.5);
-  border-radius: 0px;
-  top: 6px;
-  left: -20px;
-  position: absolute;
-}
+#post-content ul,
 #post-content ol {
-  counter-reset: li;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-left: 20px;
+}
+#post-content ul li:not(:has(input[type="checkbox"])) {
+  list-style-type: disc;
+}
+#post-content ul ul li {
+  list-style-type: square;
 }
 #post-content ol li {
-  font-size: 15px;
-  color: #595959;
-  position: relative;
-  margin-left: 23px;
+  list-style-type: decimal;
 }
-#post-content ol>li::before {
-  content: counter(li);
-  counter-increment: li 1;
-  color: #62b900;
-  position: absolute;
-  top: 3.5px;
-  left: -24px;
-  width: 17px;
-  height: 17px;
-  text-align: center;
-  line-height: 16px;
-  border: 1px solid rgba(98,185,0,0.5);
-  background: rgba(98,185,0,0.1);
-  border-radius: 20px;
-  letter-spacing: -2px !important;
-  font-size: 14px;
-  font-family: "sans serif";
+#post-content li section {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 1.7rem;
+  text-align: justify;
+  font-weight: 500;
+}
+#post-content  em {
+  padding: 0 3px 0 0;
+  font-style: italic;
+}
+#post-content blockquote {
+  display: block;
+  font-size: 0.9em;
+  overflow: auto;
+  border-left: 3px solid #4870ac;
+  padding: 15px 30px 15px 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: rgba(72,112,172,0.05);
+}
+#post-content p code,
+#post-content li code {
+  color: #4870ac;
+  font-size: 1rem;
+  word-wrap: break-word;
+  padding: 2px 4px 2px;
+  border-radius: 3px;
+  margin: 2px;
+  background-color: rgba(72,112,172,0.05);
+  word-break: break-all;
+}
+#post-content img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  filter: drop-shadow(#d2dff4 0px 0px 8px);
+  border-radius: 1rem;
+}
+#post-content table {
+  white-space: nowrap;
+  display: table;
+  text-align: left;
+  display: block;
+  overflow-x: auto;
+  text-align: left;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  font-size: 1em;
+  margin: 0px 0px 20px;
+  width: 100%;
+}
+#post-content tbody {
+  border: 0;
+}
+#post-content table tr {
+  border: 0;
+}
+#post-content table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+#post-content table tr th,
+#post-content table tr td {
+  font-size: 1rem;
+  border: 1px solid #d9dfe4;
+  padding: 5px 20px;
+  text-align: left;
+}
+#post-content table tr th {
+  font-weight: bold;
+  background-color: #fff;
+  color: #4870ac;
+}
+#post-content hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 2px solid #eef2f5;
+  border-radius: 2px;
 }
 #post-content input[type=checkbox] {
   width: 0;
@@ -450,120 +462,19 @@ pre ::selection {
 #post-content input[type="checkbox"]:checked:before {
   content: '';
   background-color: #fff;
-  background: url("/img/checked.svg") no-repeat center, rgba(114,192,0,0.65);
+  background: url("/img/checked.svg") no-repeat center, rgba(72,112,172,0.5);
 }
 #post-content li input::before {
   content: "";
   display: inline-block;
   width: 1.0125rem;
   height: 1.0125rem;
-  border: 1px solid rgba(114,192,0,0.65);
+  border: 1px solid rgba(72,112,172,0.5);
   border-radius: 0.2rem;
   background-color: #fdfdfd;
   margin-left: -1rem;
   margin-right: 0.1rem;
   margin-top: -0.1rem;
-}
-#post-content blockquote::before {
-  content: "❝";
-  color: rgba(98,185,0,0.5);
-  font-size: 34px;
-  line-height: 1;
-  font-weight: 700;
-}
-#post-content blockquote {
-  line-height: 1.55em;
-  font-weight: 400;
-  border-radius: 6px;
-  color: #595959;
-  font-style: normal;
-  font-size: 0.9em;
-  overflow: auto;
-  padding: 10px 10px 10px 20px;
-  margin: 20px 0;
-  box-sizing: inherit;
-  border: solid rgba(98,185,0,0.4) 1px;
-  background: rgba(98,185,0,0.1);
-}
-#post-content blockquote footer {
-  display: block;
-  width: calc(100% - 40px);
-  margin-top: 8px;
-  text-align: right;
-  word-break: break-all;
-}
-#post-content blockquote footer:before {
-  content: "——";
-}
-#post-content blockquote p {
-  color: #595959;
-}
-#post-content blockquote::after {
-  content: "❞";
-  float: right;
-  color: rgba(98,185,0,0.5);
-}
-#post-content a {
-  color: #62b900;
-  font-weight: normal;
-  border-bottom: 1px solid #5aab00;
-}
-#post-content strong::before {
-  content: '「';
-}
-#post-content strong {
-  color: #519500;
-  font-weight: bold;
-}
-#post-content strong::after {
-  content: '」';
-}
-#post-content em {
-  font-style: normal;
-  color: #519500;
-  font-weight: bold;
-}
-#post-content em strong {
-  color: #519500;
-}
-#post-content del {
-  color: #519500;
-}
-#post-content hr {
-  height: 1px;
-  padding: 0;
-  border: none;
-  border-top: 2px solid #5aab00;
-}
-#post-content img {
-  border-radius: 6px;
-  display: block;
-  margin: 20px auto;
-  object-fit: contain;
-  box-shadow: 2px 4px 7px #999;
-}
-#post-content p code,
-#post-content li code,
-#post-content table code {
-  color: #519500;
-  background: rgba(90,171,0,0.1);
-  padding: 0 2px;
-  border-radius: 2px;
-  height: 21px;
-  line-height: 22px;
-}
-#post-content table tr th,
-#post-content table tr td {
-  font-size: 14px;
-  color: #595959;
-  border: solid rgba(98,185,0,0.4) 1px;
-}
-#post-content table tr th {
-  background: rgba(98,185,0,0.1);
-  font-weight: bold;
-}
-#post-content table tr:nth-child(2n) {
-  background: rgba(98,185,0,0.1);
 }
 @font-face {
   font-family: "fontawesome";

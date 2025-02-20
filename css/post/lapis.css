@@ -23,13 +23,13 @@ This is a very good looking theme from typora
   margin-bottom: 20rem;
 }
 #post-content strong {
-  color: #62b900;
+  color: #4870ac;
 }
 #post-content a {
   text-decoration: none;
   word-wrap: break-word;
-  color: #62b900;
-  border-bottom: 1px solid #62b900;
+  color: #4870ac;
+  border-bottom: 1px solid #4870ac;
   margin: 2px;
 }
 #post-content p,
@@ -58,7 +58,7 @@ This is a very good looking theme from typora
 #post-content h6 {
   margin: 1em 0 1em;
   padding: 0px;
-  color: #62b900;
+  color: #4870ac;
 }
 #post-content h1 {
   text-align: center;
@@ -66,7 +66,7 @@ This is a very good looking theme from typora
 #post-content h2 {
   display: inline-block;
   font-weight: bold;
-  background: #62b900;
+  background: #4870ac;
   color: #fff;
   padding: 1px 15px 1px;
   border-radius: 4px;
@@ -95,7 +95,7 @@ h2::after {
 }
 #post-content  li::marker {
   font-weight: bold;
-  color: rgba(114,192,0,0.65);
+  color: rgba(72,112,172,0.5);
 }
 #post-content ul li,
 #post-content ol li {
@@ -131,24 +131,24 @@ h2::after {
   display: block;
   font-size: 0.9em;
   overflow: auto;
-  border-left: 3px solid #62b900;
+  border-left: 3px solid #4870ac;
   padding: 15px 30px 15px 20px;
   margin-bottom: 20px;
   margin-top: 20px;
-  background-color: #5aab00;
+  background-color: rgba(72,112,172,0.05);
 }
 /*
  * Inline code
  */
 #post-content p code,
 #post-content li code {
-  color: #62b900;
+  color: #4870ac;
   font-size: 1rem;
   word-wrap: break-word;
   padding: 2px 4px 2px;
   border-radius: 3px;
   margin: 2px;
-  background-color: #5aab00;
+  background-color: rgba(72,112,172,0.05);
   word-break: break-all;
 }
 #post-content img {
@@ -190,7 +190,7 @@ h2::after {
 #post-content table tr th {
   font-weight: bold;
   background-color: #fff;
-  color: #62b900;
+  color: #4870ac;
 }
 #post-content hr {
   margin-top: 20px;
@@ -210,14 +210,14 @@ h2::after {
 #post-content input[type="checkbox"]:checked:before {
   content: '';
   background-color: #fff;
-  background: url("/img/checked.svg") no-repeat center, rgba(114,192,0,0.65);
+  background: url("/img/checked.svg") no-repeat center, rgba(72,112,172,0.5);
 }
 #post-content li input::before {
   content: "";
   display: inline-block;
   width: 1.0125rem;
   height: 1.0125rem;
-  border: 1px solid rgba(114,192,0,0.65);
+  border: 1px solid rgba(72,112,172,0.5);
   border-radius: 0.2rem;
   background-color: #fdfdfd;
   margin-left: -1rem;
