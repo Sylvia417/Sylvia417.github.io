@@ -595,7 +595,7 @@ body {
   -webkit-transform: rotate(45deg);
   width: 100px;
   display: block;
-  background: #62b900;
+  background: #4870ac;
   position: absolute;
   top: 19px;
   right: -21px;
@@ -606,10 +606,10 @@ body {
   left: 0px;
   top: 100%;
   z-index: -1;
-  border-left: 3px solid #62b900;
+  border-left: 3px solid #4870ac;
   border-right: 3px solid transparent;
   border-bottom: 3px solid transparent;
-  border-top: 3px solid #62b900;
+  border-top: 3px solid #4870ac;
 }
 .ribbon .ri:after {
   content: "";
@@ -618,9 +618,9 @@ body {
   top: 100%;
   z-index: -1;
   border-left: 3px solid transparent;
-  border-right: 3px solid #62b900;
+  border-right: 3px solid #4870ac;
   border-bottom: 3px solid transparent;
-  border-top: 3px solid #62b900;
+  border-top: 3px solid #4870ac;
 }
 .date {
   min-width: 130px;

@@ -28,12 +28,12 @@
   border-top: solid 2px #4870ac;
 }
 #post-content h5 {
-  color: #62b900;
+  color: #4870ac;
   padding-top: 8px;
   border-top: dotted #4870ac 2px;
 }
 #post-content h6 {
-  color: #62b900;
+  color: #4870ac;
   padding-bottom: 8px;
   border-bottom: #4870ac solid 2px;
 }
@@ -54,7 +54,7 @@
 }
 #post-content ul li:not(:has(input[type="checkbox"])):before {
   content: " ";
-  background-color: #62b900;
+  background-color: #4870ac;
   width: 12px;
   height: 12px;
   border-radius: 20px;
@@ -67,7 +67,7 @@
   background: none;
   width: 6px;
   height: 6px;
-  border: solid 3px #62b900;
+  border: solid 3px #4870ac;
   border-radius: 20px;
   top: 6px;
   left: -20px;
@@ -78,7 +78,7 @@
   background: none;
   width: 6px;
   height: 6px;
-  border: solid 3px #62b900;
+  border: solid 3px #4870ac;
   border-radius: 0px;
   top: 9px;
   left: -20px;
@@ -107,7 +107,7 @@
   height: 17px;
   text-align: center;
   line-height: 16px;
-  background: #62b900;
+  background: #4870ac;
   border-radius: 20px;
   font-size: 14px;
 }
@@ -122,14 +122,14 @@
 #post-content input[type="checkbox"]:checked:before {
   content: '';
   background-color: #fff;
-  background: url("/img/checked.svg") no-repeat center, #62b900;
+  background: url("/img/checked.svg") no-repeat center, #4870ac;
 }
 #post-content li input::before {
   content: "";
   display: inline-block;
   width: 1.0125rem;
   height: 1.0125rem;
-  border: 1.5px solid #62b900;
+  border: 1.5px solid #4870ac;
   border-radius: 2.2rem;
   background-color: #fdfdfd;
   margin-left: -1rem;
@@ -179,7 +179,7 @@
 */
 #post-content a {
   text-decoration: underline;
-  text-decoration-color: #62b900;
+  text-decoration-color: #4870ac;
   text-decoration-thickness: 2px;
   color: #4870ac;
 }
